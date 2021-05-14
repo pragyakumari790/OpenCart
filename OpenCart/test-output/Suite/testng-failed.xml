@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestCases.TC_OPENCART_002">
+        <methods>
+          <include name="RegisterationTest"/>
+          <include name="launchApp"/>
+          <include name="tearDon"/>
+        </methods>
+      </class> <!-- TestCases.TC_OPENCART_002 -->
+      <class name="TestCases.TC_OPENCART_004">
+        <methods>
+          <include name="launchApp"/>
+          <include name="tearDon"/>
+          <include name="loginTst"/>
+        </methods>
+      </class> <!-- TestCases.TC_OPENCART_004 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
